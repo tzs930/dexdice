@@ -1,0 +1,23 @@
+name: dexdice
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8.20
+  - pip:
+    - torch==2.4.1
+    - numpy==1.23.5
+    - scikit-learn==1.3.2
+    - gymnasium==0.28.1
+    - gym==0.26.2
+    - huggingface-hub==0.34.4
+    - pickle5==0.0.11
+    - h5py==3.11.0
+    - pyyaml==6.0.2
+    - python-dateutil==2.9.0
+    - dsrl==0.1.0
+    # simulation environments used by train.py / preprocess.py
+    - safety-gymnasium==1.0.0
+    - git+https://github.com/liuzuxin/Bullet-Safety-Gym.git
+    # MetaDrive tasks additionally need: pip install "git+https://github.com/HenryLHH/metadrive_clean.git@main"
