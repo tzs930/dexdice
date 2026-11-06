@@ -37,7 +37,7 @@ Each subdirectory is self-contained with its own environment specification and R
 [`dsrl_code/README.md`](dsrl_code/README.md) and
 [`real_code_data_demo/README.md`](real_code_data_demo/README.md) for step-by-step commands.
 
-## Quick start
+## Quickstart
 
 ### Simulation benchmarks (`dsrl_code/`)
 
